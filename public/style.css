@@ -10,6 +10,7 @@ body {
 }
 
 header,
+section,
 footer {
   max-width: 90ex;
   margin: 0 auto;
@@ -18,6 +19,11 @@ footer {
 header {
   padding-bottom: 32px;
   border-bottom: 2px solid #ccc;
+}
+
+main {
+  width: fit-content;
+  margin: 64px auto;
 }
 
 footer {
@@ -30,6 +36,17 @@ h1 {
   color: #492a7c;
 }
 
+h2 {
+  width: fit-content;
+  margin: 32px 0 16px;
+  border-bottom: 2px solid #ccc;
+}
+
 a {
   text-decoration: none;
+}
+
+section p {
+  margin: 1em 0;
+  
 }
