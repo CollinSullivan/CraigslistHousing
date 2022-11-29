@@ -5,6 +5,7 @@
 }
 
 body {
+  text-align: center;
   padding: 64px 32px;
   font: 18px/1.5 "Avenir", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
 }
