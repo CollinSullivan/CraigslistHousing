@@ -50,13 +50,8 @@ section p {
   margin: 1em 0;
 }
 
-div.tableauPlaceholder {
-  width: 1000px;
-  height: 1000px;
-}
-
 div.reference {
-  max-width: 450px;
+  max-width: 750px;
   color: gray;
 }
 
@@ -64,5 +59,10 @@ div.appendix {
     text-align: center;
     margin: auto;
     border: 3px solid green;
-    padding: 15px;
+    padding: 10px;
+}
+
+div.center {
+  margin-left: auto;
+  margin-right: auto;
 }
