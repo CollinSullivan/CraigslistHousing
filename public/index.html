@@ -53,16 +53,36 @@ more popular. Most notably, Spotify – the world’s most popular audio streami
         However, we may ask ourselves: what goes into the playlists users are creating and what makes a song so popular? Do the effects of energy or danceability affect it in any way? [See if there is a correlation between these stats]
       <br>
       <br>    
-        <div id="observablehq-a4727f74"></div>
+        <div id="observablehq-graph-f76fb325"></div>
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
         <script type="module">
         import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-        import define from "https://api.observablehq.com/d/2934593450d6a260.js?v=3";
-        new Runtime().module(define, Inspector.into("#observablehq-a4727f74"));
+        import define from "https://api.observablehq.com/d/2934593450d6a260@164.js?v=3";
+        new Runtime().module(define, name => {
+          if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-f76fb325"));
+        });
         </script>
       <br>
       <br>  
         [See if there is a correlation between these stats]
+      <br>
+      <div id="observablehq-viewof-xAxis-93af5ba1"></div>
+      <div id="observablehq-viewof-yAxis-93af5ba1"></div>
+      <div id="observablehq-graph-93af5ba1"></div>
+      <p>Credit: <a href="https://observablehq.com/d/3073b0b34f8da9ed">Spotify Variable Correlations by Daniel Saelid</a></p>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/3073b0b34f8da9ed.js?v=3";
+      new Runtime().module(define, name => {
+        if (name === "viewof xAxis") return new Inspector(document.querySelector("#observablehq-viewof-xAxis-93af5ba1"));
+        if (name === "viewof yAxis") return new Inspector(document.querySelector("#observablehq-viewof-yAxis-93af5ba1"));
+        if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-93af5ba1"));
+        return ["x","y"].includes(name);
+      });
+      </script>  
     </p>
   </main>
 
