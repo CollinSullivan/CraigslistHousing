@@ -26,16 +26,19 @@
     </p>
   </header>
 
-  <main>
+  <section>
     <p>
-      User interest for playlists is increasing as current music streaming services become more and
-more popular. Most notably, Spotify – the world’s most popular audio streaming subscription service with 456m users, including 195m subscribers, across 183 markets as noted by <a href="https://newsroom.spotify.com/company-info/">Spotify</a>– has captured the hearts and ears of users with their engaging podcasts and wide selection of artists. 
+      User interest for playlists is increasing as current music streaming services become more and more popular. Most notably, Spotify – the world’s most popular audio streaming subscription service with 456m users, including 195m subscribers, across 183 markets as noted by <a href="https://newsroom.spotify.com/company-info/">Spotify</a>– has captured the hearts and ears of users with their engaging podcasts and wide selection of artists. 
       <br>
       <br>
       However, the ability listen to custom playlists has proven in itself to be the highest drawing point for the platform, as Spotify created playlists such as Pop Rising and RapCaviar garner millions of loyal followers and is now credited with launching countless careers, while personalized algorithm generated playlists like Discover Weekly are made especially to match the user’s unique musical tastes. In fact, in their <a href="https://dima.org/wp-content/uploads/2018/04/DiMA-Streaming-Forward-Report.pdf">2018 Annual Music Report</a>, the Digital Media Association states that 54% of consumers say that playlists are replacing albums in their listening habits. And as proven by <a href="https://dl.acm.org/doi/pdf/10.1145/3240323.3240342?casa_token=aikmhywEuVgAAAAA:155YPZ8CbhNqAJXv-NLdxcJ7Iy9gC5N1urF_Qvby4ZMBc-59iJnctbjeIxWXzBekU0pP8JoBp98b">The Million Playlist Dataset</a> that this article analyzes, users love creating playlist most of all. 
-      <br>
-      <br>
-        Users create playlists that are to be enjoyed when in a specific mood (e.g. sad and happy), or when participating in a specific activity (e.g. driving, working out, focusing), while other users choose to group music together categorically (e.g. by genre, artist, year). Whatever the reason may be – and as noted by <a href="https://engineering.atspotify.com/2018/05/introducing-the-million-playlist-dataset-and-recsys-challenge-2018/">Spotify R&D</a>– through 2018, Spotify users have created over 2 billion playlists! 
+    </p>
+  </section>
+
+  <section>
+    <h2>The Playlists</h2>
+    <p>
+      Users create playlists that are to be enjoyed when in a specific mood (e.g. sad and happy), or when participating in a specific activity (e.g. driving, working out, focusing), while other users choose to group music together categorically (e.g. by genre, artist, year). Whatever the reason may be – and as noted by <a href="https://engineering.atspotify.com/2018/05/introducing-the-million-playlist-dataset-and-recsys-challenge-2018/">Spotify R&D</a>– through 2018, Spotify users have created over 2 billion playlists! 
       <br>
       <br>
         And Through the use of our dataset that includes one million playlists – as sampled over the aforementioned 2 billion public playlists on Spotify – created by users between January 2010 and November 2017, we are able to determine trends in playlist specifics.
@@ -45,28 +48,36 @@ more popular. Most notably, Spotify – the world’s most popular audio streami
       <br>
       <br>
         It turns out that…[Talk about specifics from visualization]
-      <br>
-      <br>
-        It should be noted that the growth in streaming platform audiences has translated into more songs being streamed more often. As tracked by MRC Data in their <a href="https://mrcdatareports.com/wp-content/uploads/2022/01/MRC_YEAREND_2021_US_FNL.pdf">2021 Year-End Report</a>, global on-demand audio song streams have increased 26.3% to a total 2.74 trillions streams between the years of 2020 and 2021. Under these circumstances not only do the big hits keep getting bigger, but there are more of them than ever before. 
+    </p>
+  </section>
+
+  <section>
+    <h2>The Songs</h2>
+    <p>
+      It should be noted that the growth in streaming platform audiences has translated into more songs being streamed more often. As tracked by MRC Data in their <a href="https://mrcdatareports.com/wp-content/uploads/2022/01/MRC_YEAREND_2021_US_FNL.pdf">2021 Year-End Report</a>, global on-demand audio song streams have increased 26.3% to a total 2.74 trillions streams between the years of 2020 and 2021. Under these circumstances not only do the big hits keep getting bigger, but there are more of them than ever before. 
       <br>
       <br>
         However, we may ask ourselves: what goes into the playlists users are creating and what makes a song so popular? Do the effects of energy or danceability affect it in any way? [See if there is a correlation between these stats]
-      <br>
-      <br>    
-        <div id="observablehq-graph-f76fb325"></div>
+    </p>
+      <div id="observablehq-graph-f76fb325"></div>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-        <script type="module">
-        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-        import define from "https://api.observablehq.com/d/2934593450d6a260@164.js?v=3";
-        new Runtime().module(define, name => {
-          if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-f76fb325"));
-        });
-        </script>
-      <br>
-      <br>  
-        [See if there is a correlation between these stats]
-      <br>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/2934593450d6a260@164.js?v=3";
+      new Runtime().module(define, name => {
+        if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-f76fb325"));
+      });
+      </script>
+      <div class='reference'>
+        <p>
+            Source: LEONARDO HENRIQUE's Top Spotify songs from 2010-2019 - BY YEAR.
+            Retrieved from <a href=" https://www.kaggle.com/datasets/leonardopena/top-spotify-songs-from-20102019-by-year">link</a>.
+        </p>
+    </div>
+
+    <br>
+    <br>
       <div id="observablehq-viewof-xAxis-93af5ba1"></div>
       <div id="observablehq-viewof-yAxis-93af5ba1"></div>
       <div id="observablehq-graph-93af5ba1"></div>
@@ -82,9 +93,35 @@ more popular. Most notably, Spotify – the world’s most popular audio streami
         if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-93af5ba1"));
         return ["x","y"].includes(name);
       });
-      </script>  
+      </script>
+      <div class='reference'>
+        <p>
+            Source: MAHARSHIPANDYA's Spotify Tracks Dataset.
+            Retrieved from <a href="https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset">link</a>.
+        </p>
+      </div>
+    <p>
+      [What is a correlation between these stats]
     </p>
-  </main>
+  </section>
+
+  <section>
+    <h2>Appendix</h2>
+    <p>
+      <div class='appendix'>
+        <ul>
+          <li><b>Popularity:</b> The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past. Duplicate tracks (e.g. the same track from a single and an album) are rated independently. Artist and album popularity is derived mathematically from track popularity.</li>
+          <li><b>Danceability:</b> Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0 is least danceable and 100 is most danceable.</li>
+          <li><b>Valence:</b> Measure from 0 to 100 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</li>
+          <li><b>Energy: </b> Energy is a measure from 0 to 100 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.</li>
+          <li><b>Speechiness:</b> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.</li>
+          <li><b>Acousticness:</b>  A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</li>
+          <li><b>Instrumentalness:</b> Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content.</li>
+          <li><b>Liveness:</b> Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.</li>
+        </ul>
+      </div>
+    </p>
+  </section>
 
   <footer>
     <p>
