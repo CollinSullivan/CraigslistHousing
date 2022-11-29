@@ -5,12 +5,12 @@
 }
 
 body {
-  text-align: center;
   padding: 64px 32px;
   font: 18px/1.5 "Avenir", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
 }
 
 header,
+section,
 footer {
   max-width: 90ex;
   margin: 0 auto;
@@ -19,6 +19,11 @@ footer {
 header {
   padding-bottom: 32px;
   border-bottom: 2px solid #ccc;
+}
+
+main {
+  width: fit-content;
+  margin: 64px auto;
 }
 
 footer {
@@ -31,6 +36,34 @@ h1 {
   color: #492a7c;
 }
 
+h2 {
+  width: fit-content;
+  margin: 32px 0 16px;
+  border-bottom: 2px solid #ccc;
+}
+
 a {
   text-decoration: none;
+}
+
+section p {
+  margin: 1em 0;
+}
+
+div.tableauPlaceholder {
+  width: 1000px;
+  height: 1000px;
+}
+
+div.reference {
+  max-width: 450px;
+  color: gray;
+}
+
+div.appendix {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
