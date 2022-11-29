@@ -30,23 +30,3 @@ footer {
   padding-top: 16px;
   text-align: right;
 }
-
-h1 {
-  margin-bottom: 32px;
-  color: #492a7c;
-}
-
-h2 {
-  width: fit-content;
-  margin: 32px 0 16px;
-  border-bottom: 2px solid #ccc;
-}
-
-a {
-  text-decoration: none;
-}
-
-section p {
-  margin: 1em 0;
-  
-}
