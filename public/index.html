@@ -35,7 +35,7 @@
       User interest for playlists is increasing as current music streaming services become more and more popular. Most notably, Spotify – the world’s most popular audio streaming subscription service with 456m users, including 195m subscribers, across 183 markets as noted by <a href="https://newsroom.spotify.com/company-info/">Spotify</a>– has captured the hearts and ears of users with their engaging podcasts and wide selection of artists. 
       <br>
       <br>
-      However, the ability listen to custom playlists has proven in itself to be the highest drawing point for the platform, as Spotify created playlists such as Pop Rising and RapCaviar garner millions of loyal followers and is now credited with launching countless careers, while personalized algorithm generated playlists like Discover Weekly are made especially to match the user’s unique musical tastes. In fact, in their <a href="https://dima.org/wp-content/uploads/2018/04/DiMA-Streaming-Forward-Report.pdf">2018 Annual Music Report</a>, the Digital Media Association states that 54% of consumers say that playlists are replacing albums in their listening habits. And as proven by <a href="https://dl.acm.org/doi/pdf/10.1145/3240323.3240342?casa_token=aikmhywEuVgAAAAA:155YPZ8CbhNqAJXv-NLdxcJ7Iy9gC5N1urF_Qvby4ZMBc-59iJnctbjeIxWXzBekU0pP8JoBp98b">The Million Playlist Dataset</a> that this article analyzes, users love creating playlist most of all. 
+      However, the ability listen to custom playlists has proven in itself to be the highest drawing point for the platform, as Spotify created playlists such as Pop Rising and RapCaviar garner millions of loyal followers and is now credited with launching countless careers, while personalized algorithm generated playlists like Discover Weekly are made especially to match the user’s unique musical tastes. In fact, in their <a href="https://dima.org/wp-content/uploads/2018/04/DiMA-Streaming-Forward-Report.pdf">2018 Annual Music Report</a>, the Digital Media Association states that 54% of consumers say that playlists are replacing albums in their listening habits. And as proven by <a href="https://dl.acm.org/doi/pdf/10.1145/3240323.3240342?casa_token=aikmhywEuVgAAAAA:155YPZ8CbhNqAJXv-NLdxcJ7Iy9gC5N1urF_Qvby4ZMBc-59iJnctbjeIxWXzBekU0pP8JoBp98b">The Million Playlist Dataset</a> (see <b>Appendix B</b> that this article analyzes, users love creating playlist most of all. 
     </p>
   </section>
 
@@ -50,11 +50,11 @@
 
       <div class='tableauPlaceholder' id='viz1670035405563' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1670035405563');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='650px';vizElement.style.height='887px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='650px';vizElement.style.height='887px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       <p><b>Select from dropdowns</b> to change playlist qualities.
-         <b>X-axis</b> correlates to the distribution of playlists on Spotify that have a given score of the X characteristic (see Appendix for definiton).
+         <b>X-axis</b> correlates to the distribution of playlists on Spotify that have a given score of the X characteristic (see <b>Appendix A</b> for definiton).
          <b>Y-axis</b> changes the scatter plot corresponding to Y variable by X variable</p>
       <div class='reference'>
         <p>
-            Source: Spotify's spotify-millions-playlist. Retrieved from <a href="https://www.kaggle.com/datasets/adityak80/spotify-millions-playlist">link</a>. This visualization samples a randomized 20,000 playlist subset of the 1 million playlists provided.
+            Source: see <b>Appendix B</b>
         </p>
       </div> 
 
@@ -65,7 +65,7 @@
       Our second takeaway is that a large distribution of spotify playlists are either very easy to dance to (which encompass most party playlists), have a high level of energy (which encompass playlists that are meant for specific high-energy activities), or both! And it turns out that these two characteristics are highly correlated to each other, as energetic tracks are meant to feel fast, loud, and noisy which songs that are easy to dance to typically are.
       <br>
       <br>
-      Lastly, with the introduction of the characteristic valence (see Appendix) we are able to ask ourselves: do Spotify users make more sad playlists or are they more likely to make happy ones. It just so happens that the distribution of playlists based on moods is evenly distributed; meaning that users enjoy creating playlists for every mood.
+      Lastly, with the introduction of the characteristic valence (see <b>Appendix A</b>) we are able to ask ourselves: do Spotify users make more sad playlists or are they more likely to make happy ones. It just so happens that the distribution of playlists based on moods is evenly distributed; meaning that users enjoy creating playlists for every mood.
       <br>
       <br>
       However, you must have come to this article wondering what makes some playlists more popular than others? When searching for an answer to what makes a playlist grow in popularity we decided to track a number of attributes, those being: the number of albums, number of artists, and number of tracks and their individual impacts on the average popularity of a playlist.
@@ -80,7 +80,7 @@
     </div>
 
     <br>
-Interestingly, we observed that a majority of playlists achieve an average level of popularity (see Appendix for definition) by having a large number of songs encompassing a wide variety of artists and albums. But while it is possible for a playlist to become very popular (have a score of 85+) with over 100 tracks, most playlists of extreme popularity tend to only have less than 100 songs. We interpret this by assuming that Spotify users typically will gravitate towards playlists that are finely curated, since the more tracks a playlists has tend to feel dilluted when listened to over long periods of time.
+Interestingly, we observed that a majority of playlists achieve an average level of popularity (see <b>Appendix A/B</b> for definition) by having a large number of songs encompassing a wide variety of artists and albums. But while it is possible for a playlist to become very popular (have a score of 85+) with over 100 tracks, most playlists of extreme popularity tend to only have less than 100 songs. We interpret this by assuming that Spotify users typically will gravitate towards playlists that are finely curated, since the more tracks a playlists has tend to feel dilluted when listened to over long periods of time.
     </p>
   </section>
 
@@ -120,13 +120,20 @@ Interestingly, we observed that a majority of playlists achieve an average level
       <p>
         It turns out that among several datasets of top Spotify tracks several factors are correlated: <br>
         <ul>
-          <li>Both energy and danceability (see appendix) seem to have an outsized impact in influencing a song's popularity. While these characteristics don't exactly have a 1:1 correlation with each other, many popular songs are either easy to dance to or are more energetic.</li>
+          <li>Both energy and danceability (see <b>Appendix A</b>) seem to have an outsized impact in influencing a song's popularity. While these characteristics don't exactly have a 1:1 correlation with each other, many popular songs are either easy to dance to or are more energetic.</li>
 
-          <li>Valence or a track’s mood (see appendix) has nearly no impact on a song’s popularity as a song can be either sad or happy and still become popular.</li>
+          <li>Valence or a track’s mood (see <b>Appendix A</b>) has nearly no impact on a song’s popularity as a song can be either sad or happy and still become popular.</li>
         </ul>  
       </p>  
     </section>
 
+    <section>
+      <p>
+         While inspecting the relationship between a song's characteristics and its popularity, it's important to 
+         remember that the song characteristics themselves might be correlated. With the below visualization, one can 
+         choose two characteristics for songs to see if a clear relationship exists.
+      </p>  
+    </section>
     <main>
 
       <div id="observablehq-viewof-xAxis-c08e50b9"></div>
@@ -150,7 +157,16 @@ Interestingly, we observed that a majority of playlists achieve an average level
         </p>
       </div>
     </main>
-
+    <section>
+      <p>
+        A few clear correlations are shown with this visualization.
+        <ul>
+          <li>As energy increases, acousticness tends to decrease</li>
+          <li>As energy increases, danceability increases up to a point, then decreases for the extremely high energy songs</li>
+          <li>There are many highly-acoustic, highly-instrumental songs and non-acoustic, highly-instrumental songs, but there are few songs that fall in the middle.</li>
+        </ul>  
+      </p>  
+    </section>
   <section>
     <h2>The Conclusion</h2>
     <p>
@@ -159,7 +175,7 @@ Interestingly, we observed that a majority of playlists achieve an average level
   </section>
 
   <section>
-    <h2>Appendix</h2>
+    <h2>Appendix A</h2>
     <p>
         <ul>
           <li><b>Popularity:</b> The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past. Duplicate tracks (e.g. the same track from a single and an album) are rated independently. Artist and album popularity is derived mathematically from track popularity.</li>
@@ -170,14 +186,33 @@ Interestingly, we observed that a majority of playlists achieve an average level
           <br>
           <li><b>Energy: </b> Energy is a measure from 0 to 100 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.</li>
           <br>
-          <li><b>Speechiness:</b> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.</li>
+          <li><b>Speechiness:</b> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 100 the attribute value. Values above 66 describe tracks that are probably made entirely of spoken words. Values between 33 and 66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 33 most likely represent music and other non-speech-like tracks.</li>
           <br>
-          <li><b>Acousticness:</b>  A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</li>
+          <li><b>Acousticness:</b>  A confidence measure from 0 to 100 of whether the track is acoustic. 100 represents high confidence the track is acoustic.</li>
           <br>
-          <li><b>Instrumentalness:</b> Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content.</li>
+          <li><b>Instrumentalness:</b> Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 100, the greater likelihood the track contains no vocal content.</li>
           <br>
-          <li><b>Liveness:</b> Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.</li>
+          <li><b>Liveness:</b> Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 80 provides strong likelihood that the track is live.</li>
         </ul>
+    </p>
+  </section>
+
+  <section>
+    <h2>Appendix B</h2>
+    <p>
+      The playlists dataset was constructed from multiple existing datasets. The spotify-millions-playlist, 
+      retrieved from <a href="https://www.kaggle.com/datasets/adityak80/spotify-millions-playlist">link</a>, 
+      contains data for 1 million spotify playlists in JSON format. The raw size of this dataset was prohibitive 
+      for visualizations, so we downloaded a subset of 20,000 playlists. For each playlist, some aggregate 
+      attributes were already calculated (e.g. number of artists, number of albums). However, no measures of 
+      Spotify-calculated variables (e.g. valence, danceability) were present.
+      <br><br>
+      In order to inject the playlist dataset with Spotify-variable measures, we joined the playlist dataset with 
+      the Spotify Tracks Dataset retrieved from <a href="https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset">link</a>. 
+      If at least two tracks in a playlist were present in the Spotify Tracks Dataset, then we calculated the mean 
+      values for each of the Spotify-variables and recorded these for the playlist. As such, a major limitation of this 
+      dataset is that we can not account for the Spotify-variables for tracks not present in the Spotify Tracks Dataset. 
+      Still, it gives insight into the character of the playlists.
     </p>
   </section>
 
