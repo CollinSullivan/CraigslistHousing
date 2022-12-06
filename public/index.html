@@ -125,22 +125,10 @@ Interestingly, we observed that a majority of playlists achieve an average level
     </section>
 
     <main>
-      <div id="observablehq-viewof-xAxis-93af5ba1"></div>
-      <div id="observablehq-viewof-yAxis-93af5ba1"></div>
-      <div id="observablehq-graph-93af5ba1"></div>
       <p><b>Select from dropdowns</b> to change song qualities</p>
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-      <script type="module">
-      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-      import define from "https://api.observablehq.com/d/3073b0b34f8da9ed.js?v=3";
-      new Runtime().module(define, name => {
-        if (name === "viewof xAxis") return new Inspector(document.querySelector("#observablehq-viewof-xAxis-93af5ba1"));
-        if (name === "viewof yAxis") return new Inspector(document.querySelector("#observablehq-viewof-yAxis-93af5ba1"));
-        if (name === "graph") return new Inspector(document.querySelector("#observablehq-graph-93af5ba1"));
-        return ["x","y"].includes(name);
-      });
-      </script>
+      <iframe width="100%" height="715.78125" frameborder="0"
+  src="https://observablehq.com/embed/3073b0b34f8da9ed?cells=data%2Cviewof+xAxis%2Cviewof+yAxis%2Cgraph"></iframe>
       <div class='reference'>
         <p>
             Source: MAHARSHIPANDYA's Spotify Tracks Dataset. Retrieved from <a href="https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset">link</a>. This visualization samples a randomized 20,000 track subset of the 112,000 tracks provided.

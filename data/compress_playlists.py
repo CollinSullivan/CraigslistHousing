@@ -3,6 +3,7 @@ import pandas as pd
 import argparse
 import os
 import csv
+# last used : 115000-115999
 
 # num unique artists, num unique albums, num followers, num tracks, average song duration (from json),
 # average valence etc (from spotifytracks), average popularity of songs (from spotifytracks)
