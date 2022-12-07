@@ -66,3 +66,8 @@ div.center {
   margin-left: auto;
   margin-right: auto;
 }
+
+div.tableauPlaceholder {
+  width: 750px;
+  height: auto;
+}
