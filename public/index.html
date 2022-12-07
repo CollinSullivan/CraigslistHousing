@@ -26,10 +26,6 @@
     </p>
   </header>
   
-  <!-- <img src="Spotify_Logo_RGB_Green.png"
-      width: "1000"
-      height: "500" /> -->
-  
   <section>
     <p>
       User interest for playlists is increasing as current music streaming services become more and more popular. Most notably, Spotify – the world’s most popular audio streaming subscription service with 456m users, including 195m subscribers, across 183 markets as noted by <a href="https://newsroom.spotify.com/company-info/">Spotify</a>– has captured the hearts and ears of users with their engaging podcasts and wide selection of artists. 
@@ -40,13 +36,13 @@
   </section>
 
   <section>
-    <h2>The Playlists</h2>
     <p>
       With over 60,000 tracks uploaded daily, Spotify users have the ability to create playlists as they please. Users create playlists that are to be enjoyed when in a specific mood (e.g. sad and happy), or when participating in a specific activity (e.g. driving, working out, focusing), while other users choose to group music together categorically (e.g. by genre, artist, year). Whatever the reason may be – and as noted by <a href="https://engineering.atspotify.com/2018/05/introducing-the-million-playlist-dataset-and-recsys-challenge-2018/">Spotify R&D</a>– through 2018, Spotify users have created over 2 billion playlists! 
       <br>
       <br>
         And through the use of our dataset that includes one million playlists – as sampled over the aforementioned 2 billion public playlists on Spotify – created by users between January 2010 and November 2017, we search for trends in playlist specifics and delve into questions that happened to arise as the data was analyzed. For instance, we asked ourselves: do users create playlists that are largely instrumental songs, but can also be easily danced to – the answer is absolutely not! Yet, questions like this helped us observe trends in what types of playlists are being created. 
       <br>
+</section>
 
       <div class='tableauPlaceholder' id='viz1670035405563' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifyMillionsPlaylistDataWorkbook&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1670035405563');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='650px';vizElement.style.height='887px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='650px';vizElement.style.height='887px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       <p><b>Select from dropdowns</b> to change playlist qualities.
@@ -58,6 +54,7 @@
         </p>
       </div> 
 
+<section>
       <br>
       The first key takeaway is that Spotify users tend to not create playlists that are largely live music, more acoustical genres like classical music, or exclusively speech-like the recordings (e.g. talk shows, audio books, poetry). But does that really shock anyone? 
       <br>
@@ -68,25 +65,21 @@
       Lastly, with the introduction of the characteristic valence (see <b>Appendix A</b>) we are able to ask ourselves: do Spotify users make more sad playlists or are they more likely to make happy ones. It just so happens that the distribution of playlists based on moods is evenly distributed; meaning that users enjoy creating playlists for every mood.
       <br>
       <br>
-      However, you must have come to this article wondering what makes some playlists more popular than others? When searching for an answer to what makes a playlist grow in popularity we decided to track a number of attributes, those being: the number of albums, number of artists, and number of tracks and their individual impacts on the average popularity of a playlist.
+      However, you must have come to this article wondering what makes some playlists more popular than others? When searching for an answer to what makes a playlist grow in popularity we decided to track a number of attributes, those being: the <div style="background-color:blue;color:white;">number of albums,</div> <div style="background-color:green;color:white;">number of artists,</div> and <div style="background-color:pink;color:black;">number of tracks,</div> and their individual impacts on the average popularity of a playlist.
     <br>
 
       <div class='tableauPlaceholder' id='viz1670220067193' style='position: relative'><noscript><a href='#'><img alt='Sheet 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_16702200542290&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book2_16702200542290&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_16702200542290&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1670220067193');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>    
     
     <div class='reference'>
         <p>
-            Source: Spotify's spotify-millions-playlist. Retrieved from <a href="https://www.kaggle.com/datasets/adityak80/spotify-millions-playlist">link</a>. This visualization samples a randomized 20,000 playlist subset of the 1 million playlists provided.
+            Source: see <b>Appendix B</b>
         </p>
     </div>
 
     <br>
 Interestingly, we observed that a majority of playlists achieve an average level of popularity (see <b>Appendix A/B</b> for definition) by having a large number of songs encompassing a wide variety of artists and albums. But while it is possible for a playlist to become very popular (have a score of 85+) with over 100 tracks, most playlists of extreme popularity tend to only have less than 100 songs. We interpret this by assuming that Spotify users typically will gravitate towards playlists that are finely curated, since the more tracks a playlists has tend to feel dilluted when listened to over long periods of time.
-    </p>
-  </section>
-
-  <section>
-    <h2>The Songs</h2>
-    <p>
+    <br>
+    <br>
       It should be noted that the growth in streaming platform audiences has translated into more songs being streamed more often. As tracked by MRC Data in their <a href="https://mrcdatareports.com/wp-content/uploads/2022/01/MRC_YEAREND_2021_US_FNL.pdf">2021 Year-End Report</a>, global on-demand audio song streams have increased 26.3% to a total 2.74 trillions streams between the years of 2020 and 2021. Under these circumstances not only do the big hits keep getting bigger, but there are more of them than ever before. 
       <br>
       <br>
@@ -167,12 +160,6 @@ Interestingly, we observed that a majority of playlists achieve an average level
         </ul>  
       </p>  
     </section>
-  <section>
-    <h2>The Conclusion</h2>
-    <p>
-
-    </p>
-  </section>
 
   <section>
     <h2>Appendix A</h2>
